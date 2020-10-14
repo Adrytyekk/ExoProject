@@ -6,7 +6,7 @@ namespace Components {
     [Serializable]
     public class AxisEvent : UnityEvent<float> {}
 
-    public class InputComponent : MonoBehaviour {
+    public class InputConnector : MonoBehaviour {
 
         public AxisEvent MouseX;
         public AxisEvent MouseY;

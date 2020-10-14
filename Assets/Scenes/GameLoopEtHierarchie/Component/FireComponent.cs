@@ -13,15 +13,10 @@ public class FireComponent : MonoBehaviour
 
     }
 
-    void Update()
-    {
-        
-    }
-
     public void Fire()
     {
         GameObject ammoShot = Instantiate(AmmoPrefab, transform.position, Quaternion.identity);
-        ammoShot.GetComponent<Rigidbody>().AddForce(transform.right * FirePower, ForceMode.Impulse);
+        ammoShot.GetComponent<Rigidbody>().AddForce(-transform.right * FirePower, ForceMode.Impulse);
     }
 
 }

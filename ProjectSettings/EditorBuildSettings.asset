@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/GameLoopEtHierarchie/GameLoopEtHierarchie.unity
+    guid: c56674c25487cab41a78778553d96b22
   m_configObjects: {}
