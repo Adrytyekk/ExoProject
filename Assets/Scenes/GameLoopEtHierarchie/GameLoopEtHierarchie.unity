@@ -2293,10 +2293,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1777876483096353341, guid: e2e6e526216f54b4ea42582590873900,
+        type: 3}
+      propertyPath: InputMultiplicator
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 1777876483191847808, guid: e2e6e526216f54b4ea42582590873900,
         type: 3}
       propertyPath: m_Name
       value: Tank
+      objectReference: {fileID: 0}
+    - target: {fileID: 1777876483191847808, guid: e2e6e526216f54b4ea42582590873900,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1777876483191847811, guid: e2e6e526216f54b4ea42582590873900,
         type: 3}
